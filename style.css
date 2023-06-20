@@ -117,3 +117,12 @@ nav ul li{
       background-color: red;
     }
   }
+
+#preloader {
+    background: rgb(255, 255, 255) url(loader.gif) no-repeat center center;
+    background-size: 9%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }

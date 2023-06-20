@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <div  id="preloader"></div>
     <nav>
         <ul>
             <li class="brand"><img src="logo.jpg" alt="Spotify"></li>
@@ -20,7 +21,7 @@
     </nav>
     <div class="container">
         <div class="songList">
-            <h1>One Music Player For All</h1><em>- No Copyright Sounds</em>
+            <h1>One Music Player For All</h1><em>~ No Copyright Sounds</em>
             
             <div class="songItemContainer">
                 <div class="songItem">
@@ -102,6 +103,12 @@
     </div>
     <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function(){
+          loader.style.display="none";
+        })
+      </script>
 </body>
 
 </html>
